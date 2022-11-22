@@ -1,0 +1,40 @@
+Cadastrar Medicamentos
+Ator: Funcionário
+
+Fluxo normal:
+1. Funcionário autentica-se no sistema;
+2. Funcionário solicita cadastrar novo medicamento;
+3. Sistema exibe tela de cadastro de medicamento;
+4. Funcionário preenche dados do medicamento;
+5. Sistema cadastra quele medicamento.
+
+Extensões:
+2a. Se aquele funcionário não tiver permissão para aquela operação, sistema nega acesso;
+4a. Se aquele medicamento já estiver cadastrado, sistema informa o funcionário.
+
+Realizar cadastro de funcionários
+Ator: Gerente
+
+Fluxo normal:
+1. Gerente autentica-se no sistema;
+2. Gerente solicita cadastrar novo funcionário;
+3. Sistema exibe tela de cadastro de funcionário;
+4. Gerente preenche dados de funcionário;
+5. Sistema cadastra novo funcionário;
+
+Extensões:
+4b. Se aquele funcionário já estiver cadastrado, sistema informa o gerente;
+
+Gerenciar folha de pagamento
+Ator: Gerente
+
+Fluxo normal:
+1. Gerente autentica-se no sistema;
+2. Gerente solicita ver folha de pagamento dos funcionários;
+3. Sistema solicita folha de pagamento do Sistema financeiro;
+4. Sistema financeiro envia folha de pagamento ao Sistema;
+5. Sistema exibe folha de pagamento dos funcionários;
+6. Gerente solicita gerenciar folha de pagamento;
+7. Sistema exibe tela de gerência da folha de pagamento.
+
+
