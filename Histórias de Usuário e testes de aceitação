@@ -1,0 +1,34 @@
+Eu como funcionário, quero adicionar/alterar/deletar evento da agenda para organizar as consultas
+    • Dado que a agenda está vazia, quando eu adicionar evento na agenda, espera-se este evento estar agora na agenda
+    • Dado que há um evento na agenda, quando eu alterá-lo, este será atualizado na agenda
+    • Dado que há um evento na agenda, quando eu solicitar excluí-lo, este não mais constará na agenda
+
+Eu como cliente quero ter um cadastro na clínica para ter um acompanhamento melhor
+    • Dado que os dados de cadastro de cliente foram preenchidos, quando eu solicitar cadastro, seu registro constará no banco de dados
+    • Dado um nome X de cliente, quando eu buscar X dentre os clientes cadastrados, o sistema me mostrará X e seus dados
+
+Como gerente quero poder cadastrar funcionários para que possam fazer suas funções dentro do sistema
+    • Dado que os dados de cadastro de funcionário foram preenchidos, quando eu solicitar cadastro, seu registro constará no banco de dados
+    • Dado um nome X de funcionário, quando eu buscar X dentre os funcionários cadastrados, o sistema me mostrará X e seus dados
+
+Como gerente quero poder descadastrar funcionários para retirá-los da folha de pagamento
+    • Dado que solicitei descadastro do funcionário X, quando eu buscar X dentre os funcionários, o sistema me mostrará que X não consta como funcionário
+
+Como funcionário quero alterar o histórico para corrigir eventual erro de registro
+    • Dado o registro de uma consulta com o doutor X, quando eu mudar o especialista registrado nela para Y, o registro da consulta apresentará o doutor Y especialista
+
+Como funcionário quero mover o histórico para o arquivo morto para deixar de acompanhar determinado cliente
+    • Dado que o arquivo morto está vazio e eu movo uma consulta X do histórico para lá, então a consulta X não constará mais no histórico e a consulta X constará cno arquivo morto
+
+Como gerente quero acessar a folha de pagamento dos funcionários através do sistema para poder gerenciá-la
+    • 
+
+Como gerente quero fazer backup dos dados para salvaguardar dados
+    • Dado que consta que “o último backup foi feito há 3 dias”, quando eu solicitar fazer backup, então constará que “o último backup foi feito hoje”
+
+
+
+
+
+
+
