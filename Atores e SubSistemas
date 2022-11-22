@@ -1,0 +1,13 @@
+Atores:
+
+Cliente;
+Funcionário;
+Sistema;
+Sistema financeiro.
+
+SubSistemas:
+
+Login/Cadastro de Pessoas;
+Gerenciamento(crud) de evento da agenda;
+Cadastro de medicamentos;
+Backup.
